@@ -12,6 +12,7 @@ import com.example.administrator.google_android_arch.archDemo.model.Product;
 
 public class MainActivity extends LifecycleActivity {
 
+  //private Button tranBtn;
   @Override
   protected void onCreate(@Nullable Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -21,6 +22,14 @@ public class MainActivity extends LifecycleActivity {
       getSupportFragmentManager().beginTransaction()
           .add(R.id.fragment_container,fragment, ProductListFragment.TAG).commit();
     }
+
+    //tranBtn = findViewById(R.id.user_btn);
+    //tranBtn.setOnClickListener(new View.OnClickListener() {
+    //  @Override
+    //  public void onClick(View v) {
+    //    startActivity(new Intent(MainActivity.this, UserActivity.class));
+    //  }
+    //});
   }
 
   public void show(Product product){

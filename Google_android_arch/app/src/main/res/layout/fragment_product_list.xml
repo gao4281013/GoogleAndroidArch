@@ -24,14 +24,11 @@
     <android.support.v7.widget.RecyclerView
         android:id="@+id/products_list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:contentDescription="@string/product_list"
         app:layoutManager="LinearLayoutManager"
         app:visibleGone="@{!isLoading}"
         />
   </LinearLayout>
-
-
-
 </layout>
 
