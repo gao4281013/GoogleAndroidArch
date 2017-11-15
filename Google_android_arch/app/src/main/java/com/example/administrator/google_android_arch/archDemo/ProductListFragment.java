@@ -46,7 +46,6 @@ public class ProductListFragment extends LifecycleFragment {
   public void onActivityCreated(@Nullable Bundle savedInstanceState) {
     super.onActivityCreated(savedInstanceState);
     final ProductLitViewModel model = ViewModelProviders.of(this).get(ProductLitViewModel.class);
-
     subscribeUi(model);
   }
 
@@ -77,7 +76,7 @@ public class ProductListFragment extends LifecycleFragment {
     @Override
     public void onClick(Product product) {
       if (getLifecycle().getCurrentState().isAtLeast(Lifecycle.State.STARTED)){
-
+        ((MainActivity)getActivity()).show(product);
       }
     }
   };

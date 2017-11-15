@@ -22,6 +22,6 @@ public interface ProductDao {
   @Query("select * from products where id =  :productId")
   LiveData<ProductEntity> loadProduct(int productId);
 
-  @Query("select * from products where id =  :productID")
+  @Query("select * from products where id =  :productId")
    ProductEntity loadProductSync(int productId);
 }

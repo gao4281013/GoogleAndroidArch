@@ -83,6 +83,9 @@
   <string name="loading_product">loading product ...</string>
   <string name="product_list">product list</string>
   <string name="name_of_product">name of product</string>
+  <string name="product_price">product_price</string>
+  <string name="loading_comments">Loading comments...</string>
+  <string name="comment_list">comment list</string>
 
 
   <string-array name="sorts">

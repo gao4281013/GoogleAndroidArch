@@ -1,6 +1,7 @@
 package com.example.administrator.google_android_arch.archDemo.viewModel;
 
 import android.app.Application;
+import android.arch.core.util.Function;
 import android.arch.lifecycle.AndroidViewModel;
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
@@ -34,7 +35,7 @@ public class ProductLitViewModel extends AndroidViewModel {
         new Function<Boolean, LiveData<List<ProductEntity>>>() {
       @Override
       public LiveData<List<ProductEntity>> apply(Boolean isDbCreated) {
-        if (Boolean.TRUE.equals(isDbCreated)){
+        if (!Boolean.TRUE.equals(isDbCreated)){
           return ABSENT;
         }else {
           return databaseCreator.getDatabase().productDao().loadAllProducts();

@@ -17,7 +17,7 @@ public class ProductEntity implements Product{
 
   @Override
   public int getId() {
-    return 0;
+    return id;
   }
 
   public void setDescription(String description) {
@@ -38,17 +38,17 @@ public class ProductEntity implements Product{
 
   @Override
   public String getName() {
-    return null;
+    return name;
   }
 
   @Override
   public String getDescription() {
-    return null;
+    return description;
   }
 
   @Override
   public int getPrice() {
-    return 0;
+    return price;
   }
 
 

@@ -1,8 +1,9 @@
+package com.example.administrator.google_android_arch.archDemo;
+
 import android.arch.lifecycle.LifecycleActivity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import com.example.administrator.google_android_arch.R;
-import com.example.administrator.google_android_arch.archDemo.ProductListFragment;
 import com.example.administrator.google_android_arch.archDemo.model.Product;
 
 /**
@@ -18,11 +19,16 @@ public class MainActivity extends LifecycleActivity {
     if (savedInstanceState == null){
       ProductListFragment fragment = new ProductListFragment();
       getSupportFragmentManager().beginTransaction()
-          .add(R.id.fragment_container,fragment);
+          .add(R.id.fragment_container,fragment, ProductListFragment.TAG).commit();
     }
   }
 
   public void show(Product product){
-
+    ProductFragment productFragment = ProductFragment.forProduct(product.getId());
+    getSupportFragmentManager()
+        .beginTransaction()
+        .addToBackStack("product")
+        .replace(R.id.fragment_container,
+            productFragment,null).commit();
   }
 }
