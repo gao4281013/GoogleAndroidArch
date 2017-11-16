@@ -12,11 +12,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import com.example.administrator.google_android_arch.R;
-import com.example.administrator.google_android_arch.archDemo.UI.ProductAdapter;
-import com.example.administrator.google_android_arch.archDemo.UI.ProductClickCallback;
-import com.example.administrator.google_android_arch.archDemo.db.entity.ProductEntity;
-import com.example.administrator.google_android_arch.archDemo.model.Product;
-import com.example.administrator.google_android_arch.archDemo.viewModel.ProductLitViewModel;
+import com.example.administrator.google_android_arch.archDemo.basic.UI.ProductAdapter;
+import com.example.administrator.google_android_arch.archDemo.basic.UI.ProductClickCallback;
+import com.example.administrator.google_android_arch.archDemo.basic.db.entity.ProductEntity;
+import com.example.administrator.google_android_arch.archDemo.basic.model.Product;
+import com.example.administrator.google_android_arch.archDemo.basic.viewModel.ProductLitViewModel;
 import com.example.administrator.google_android_arch.databinding.FragmentProductListBinding;
 import java.util.List;
 

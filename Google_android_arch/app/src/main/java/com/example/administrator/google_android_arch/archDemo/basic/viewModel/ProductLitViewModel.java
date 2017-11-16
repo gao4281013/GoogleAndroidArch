@@ -1,4 +1,4 @@
-package com.example.administrator.google_android_arch.archDemo.viewModel;
+package com.example.administrator.google_android_arch.archDemo.basic.viewModel;
 
 import android.app.Application;
 import android.arch.core.util.Function;
@@ -6,8 +6,8 @@ import android.arch.lifecycle.AndroidViewModel;
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.Transformations;
-import com.example.administrator.google_android_arch.archDemo.db.DatabaseCreator;
-import com.example.administrator.google_android_arch.archDemo.db.entity.ProductEntity;
+import com.example.administrator.google_android_arch.archDemo.basic.db.DatabaseCreator;
+import com.example.administrator.google_android_arch.archDemo.basic.db.entity.ProductEntity;
 import java.util.List;
 
 /**

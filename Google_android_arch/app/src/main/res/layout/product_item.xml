@@ -6,10 +6,10 @@
   <data>
     <variable
         name="product"
-        type="com.example.administrator.google_android_arch.archDemo.model.Product"/>
+        type="com.example.administrator.google_android_arch.archDemo.basic.model.Product"/>
     <variable
         name="callback"
-        type="com.example.administrator.google_android_arch.archDemo.UI.ProductClickCallback"/>
+        type="com.example.administrator.google_android_arch.archDemo.basic.UI.ProductClickCallback"/>
   </data>
   <android.support.v7.widget.CardView
       android:layout_width="match_parent"

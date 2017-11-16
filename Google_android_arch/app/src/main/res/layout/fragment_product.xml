@@ -10,7 +10,7 @@
         />
     <variable
         name="productViewModel"
-        type="com.example.administrator.google_android_arch.archDemo.viewModel.ProductViewModel"
+        type="com.example.administrator.google_android_arch.archDemo.basic.viewModel.ProductViewModel"
         />
 
   </data>

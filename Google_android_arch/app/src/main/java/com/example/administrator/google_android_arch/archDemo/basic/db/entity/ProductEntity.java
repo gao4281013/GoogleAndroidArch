@@ -1,8 +1,8 @@
-package com.example.administrator.google_android_arch.archDemo.db.entity;
+package com.example.administrator.google_android_arch.archDemo.basic.db.entity;
 
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
-import com.example.administrator.google_android_arch.archDemo.model.Product;
+import com.example.administrator.google_android_arch.archDemo.basic.model.Product;
 
 /**
  * Created by Administrator on 2017/11/14.

@@ -6,10 +6,10 @@
   <data>
     <variable
         name="comment"
-        type="com.example.administrator.google_android_arch.archDemo.model.Comment"/>
+        type="com.example.administrator.google_android_arch.archDemo.basic.model.Comment"/>
     <variable
         name="callback"
-        type="com.example.administrator.google_android_arch.archDemo.UI.CommentClickCallback"/>
+        type="com.example.administrator.google_android_arch.archDemo.basic.UI.CommentClickCallback"/>
   </data>
   <android.support.v7.widget.CardView
       android:layout_width="match_parent"

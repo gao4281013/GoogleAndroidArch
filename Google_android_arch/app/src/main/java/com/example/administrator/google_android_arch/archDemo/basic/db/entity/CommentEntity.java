@@ -1,10 +1,10 @@
-package com.example.administrator.google_android_arch.archDemo.db.entity;
+package com.example.administrator.google_android_arch.archDemo.basic.db.entity;
 
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.ForeignKey;
 import android.arch.persistence.room.Index;
 import android.arch.persistence.room.PrimaryKey;
-import com.example.administrator.google_android_arch.archDemo.model.Comment;
+import com.example.administrator.google_android_arch.archDemo.basic.model.Comment;
 import java.util.Date;
 
 /**

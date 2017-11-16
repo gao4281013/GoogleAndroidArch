@@ -4,7 +4,8 @@ import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.Ignore;
 import android.arch.persistence.room.PrimaryKey;
-import io.reactivex.annotations.NonNull;
+import android.support.annotation.NonNull;
+import java.util.UUID;
 
 /**
  * Created by Administrator on 2017/11/15.
@@ -21,6 +22,7 @@ public class User {
 
   @Ignore
   public User(String userName) {
+    mId = UUID.randomUUID().toString();
     mUserName = userName;
   }
 

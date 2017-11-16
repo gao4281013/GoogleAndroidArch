@@ -4,7 +4,7 @@ import android.arch.lifecycle.LifecycleActivity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import com.example.administrator.google_android_arch.R;
-import com.example.administrator.google_android_arch.archDemo.model.Product;
+import com.example.administrator.google_android_arch.archDemo.basic.model.Product;
 
 /**
  * Created by Administrator on 2017/11/14.

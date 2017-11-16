@@ -1,4 +1,4 @@
-package com.example.administrator.google_android_arch.archDemo.viewModel;
+package com.example.administrator.google_android_arch.archDemo.basic.viewModel;
 
 import android.app.Application;
 import android.arch.core.util.Function;
@@ -10,9 +10,9 @@ import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProvider;
 import android.databinding.ObservableField;
 import android.support.annotation.NonNull;
-import com.example.administrator.google_android_arch.archDemo.db.DatabaseCreator;
-import com.example.administrator.google_android_arch.archDemo.db.entity.CommentEntity;
-import com.example.administrator.google_android_arch.archDemo.db.entity.ProductEntity;
+import com.example.administrator.google_android_arch.archDemo.basic.db.DatabaseCreator;
+import com.example.administrator.google_android_arch.archDemo.basic.db.entity.CommentEntity;
+import com.example.administrator.google_android_arch.archDemo.basic.db.entity.ProductEntity;
 import java.util.List;
 
 /**

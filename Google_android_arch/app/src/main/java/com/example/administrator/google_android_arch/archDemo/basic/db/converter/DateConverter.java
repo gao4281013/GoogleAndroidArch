@@ -1,4 +1,4 @@
-package com.example.administrator.google_android_arch.archDemo.db.converter;
+package com.example.administrator.google_android_arch.archDemo.basic.db.converter;
 
 import android.arch.persistence.room.TypeConverter;
 import java.util.Date;

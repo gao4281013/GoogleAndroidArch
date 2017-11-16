@@ -1,4 +1,4 @@
-package com.example.administrator.google_android_arch.archDemo.UI;
+package com.example.administrator.google_android_arch.archDemo.basic.UI;
 
 import android.databinding.DataBindingUtil;
 import android.os.Build;
@@ -9,7 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import com.example.administrator.google_android_arch.R;
-import com.example.administrator.google_android_arch.archDemo.model.Comment;
+import com.example.administrator.google_android_arch.archDemo.basic.model.Comment;
 import com.example.administrator.google_android_arch.databinding.CommentItemBinding;
 import java.util.List;
 import java.util.Objects;

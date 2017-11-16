@@ -1,4 +1,4 @@
-package com.example.administrator.google_android_arch.archDemo.UI;
+package com.example.administrator.google_android_arch.archDemo.basic.UI;
 
 import android.view.View;
 

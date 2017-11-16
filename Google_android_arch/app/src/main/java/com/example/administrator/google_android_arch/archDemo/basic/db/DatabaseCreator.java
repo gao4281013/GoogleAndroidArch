@@ -1,4 +1,4 @@
-package com.example.administrator.google_android_arch.archDemo.db;
+package com.example.administrator.google_android_arch.archDemo.basic.db;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
@@ -9,7 +9,7 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import static com.example.administrator.google_android_arch.archDemo.db.AppDatabase.DATABASE_NAME;
+import static com.example.administrator.google_android_arch.archDemo.basic.db.AppDatabase.DATABASE_NAME;
 
 /**
  * Created by Administrator on 2017/11/14.

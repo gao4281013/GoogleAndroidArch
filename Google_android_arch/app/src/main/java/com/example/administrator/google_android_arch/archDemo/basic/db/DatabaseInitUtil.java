@@ -1,8 +1,8 @@
-package com.example.administrator.google_android_arch.archDemo.db;
+package com.example.administrator.google_android_arch.archDemo.basic.db;
 
 import android.util.Log;
-import com.example.administrator.google_android_arch.archDemo.db.entity.CommentEntity;
-import com.example.administrator.google_android_arch.archDemo.db.entity.ProductEntity;
+import com.example.administrator.google_android_arch.archDemo.basic.db.entity.CommentEntity;
+import com.example.administrator.google_android_arch.archDemo.basic.db.entity.ProductEntity;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
